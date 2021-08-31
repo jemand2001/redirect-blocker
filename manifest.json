@@ -1,0 +1,22 @@
+{
+    "name": "Stop Redirect BS",
+    "description": "Nobody likes that \"Do you want to leave this site?\" page, so I'm removing it.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "js": ["youtube.js"],
+            "matches": [
+                "https://*.youtube.com/*"
+            ]
+        },
+        {
+            "js": ["gmx.js"],
+            "matches": [
+                "https://3c.gmx.net/*"
+            ],
+            "all_frames": true
+        }
+    ],
+    "incognito": "split"
+}
