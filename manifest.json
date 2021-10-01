@@ -16,6 +16,12 @@
                 "https://3c.gmx.net/*"
             ],
             "all_frames": true
+        },
+        {
+            "js": ["book24.js"],
+            "matches": [
+                "https://book24.de/*"
+            ]
         }
     ],
     "incognito": "split"
