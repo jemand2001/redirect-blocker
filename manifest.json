@@ -18,6 +18,12 @@
             "all_frames": true
         },
         {
+            "js": ["gmx/consent.js"],
+            "matches": [
+                "https://gmx.net/consent-management"
+            ]
+        },
+        {
             "js": ["book24.js"],
             "matches": [
                 "https://book24.de/*"
